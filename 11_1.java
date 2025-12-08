@@ -1,6 +1,6 @@
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class Lucky {
+class Lucky {
 
     private static final AtomicInteger x = new AtomicInteger(0);
     private static final AtomicInteger count = new AtomicInteger(0);
