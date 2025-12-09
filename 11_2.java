@@ -1,3 +1,5 @@
+package org.example;
+
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
@@ -51,4 +53,3 @@ class PoolExample {
         executor.awaitTermination(1, TimeUnit.HOURS);
     }
 }
-
