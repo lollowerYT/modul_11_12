@@ -1,3 +1,5 @@
+package org.example;
+
 import java.util.concurrent.atomic.AtomicInteger;
 
 class Lucky {
@@ -22,7 +24,7 @@ class Lucky {
                 int f = (value / 100000) % 10;
 
                 if (a + b + c == d + e + f) {
-                    System.out.println(value);
+                    System.out.println(this.getName() + " --- " + value);
                     count.incrementAndGet();
                 }
             }
@@ -45,4 +47,3 @@ class Lucky {
         System.out.println("Total: " + count.get());
     }
 }
-
